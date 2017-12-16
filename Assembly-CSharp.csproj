@@ -51,12 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CSVWriter.cs" />
+     <Compile Include="Assets\NotesTimingMaker.cs" />
      <Compile Include="Assets\StageScript\ToStage1.cs" />
      <Compile Include="Assets\StageScript\ToStage2.cs" />
      <Compile Include="Assets\StageScript\ToStage3.cs" />
      <Compile Include="Assets\StageScript\ToStage4.cs" />
      <Compile Include="Assets\StageScript\ToStage5.cs" />
-     <Compile Include="Assets\ToSelect.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
