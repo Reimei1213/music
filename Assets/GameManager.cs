@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour {
 	private bool _isPlaying = false;
 	public GameObject startButton;
 
+	public Text scoreText;
+	private int _score = 0;
 
 	void Start(){
 		_audioSource = GameObject.Find ("GameMusic").GetComponent<AudioSource> ();
@@ -65,15 +67,19 @@ public class GameManager : MonoBehaviour {
 
 			string line = reader.ReadLine ();
 			string[] values = line.Split (',');
-			for (j = 0; j < values.Length; j++) {
-				_timing [i] = float.Parse( values [0] );
-				_lineNum [i] = int.Parse( values [1] );
-			}
+			_timing [i] = float.Parse( values [0] );
+			_lineNum [i] = int.Parse( values [1] );
 			i++;
 		}
 	}
 
 	float GetMusicTime(){
 		return Time.time - _startTime;
+	}
+
+	public void GoodTimingFunc(int num){
+		Debug.Log ("Line:" + num + " good!");
+		Debug.Log (GetMusicTime());
+		_score++;
 	}
 }

@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\CSVWriter.cs" />
      <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\NotesScript.cs" />
      <Compile Include="Assets\NotesTimingMaker.cs" />
      <Compile Include="Assets\StageScript\ToStage1.cs" />
      <Compile Include="Assets\StageScript\ToStage2.cs" />
