@@ -145,7 +145,7 @@ MonoBehaviour:
   - {fileID: 1204507692526270, guid: 4ef0fd308ba9844458d1faf4f46c5cc8, type: 2}
   - {fileID: 1168101279534278, guid: 7393659e840d6e14695a3650b26c3428, type: 2}
   - {fileID: 1465445575177706, guid: b162474d8d56adb4194c5a520ebfa5e4, type: 2}
-  filePass: CSV/TestTimig
+  filePass: CSV/TestTiming
   timeOffset: -1
   startButton: {fileID: 920771181}
   scoreText: {fileID: 1064020518}
@@ -499,12 +499,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: c8c6351bc0f776647b7b1798dcdf558e, type: 3}
-        m_MethodName: 
+      - m_Target: {fileID: 331850929}
+        m_MethodName: StartMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1213,7 +1213,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1591060390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 102.5, y: 64, z: 0}
+  m_LocalPosition: {x: 222.5, y: 139, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 920771182}
