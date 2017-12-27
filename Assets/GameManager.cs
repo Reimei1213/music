@@ -69,6 +69,7 @@ public class GameManager : MonoBehaviour {
 			string[] values = line.Split (',');
 			_timing [i] = float.Parse( values [0] );
 			_lineNum [i] = int.Parse( values [1] );
+			Debug.Log (_timing[i] + " " + _lineNum[i]);
 			i++;
 		}
 	}
