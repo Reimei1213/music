@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour {
 	public Text scoreText;
 	private int _score = 0;
 
+	public Text StartText;
+
 	void Start(){
 		_audioSource = GameObject.Find ("GameMusic").GetComponent<AudioSource> ();
 		_timing = new float[1024];
@@ -44,6 +46,7 @@ public class GameManager : MonoBehaviour {
 		_startTime = Time.time;
 		_audioSource.Play ();
 		_isPlaying = true;
+		Destroy (StartText);
 	}
 
 	void CheckNextNotes(){
@@ -55,8 +58,9 @@ public class GameManager : MonoBehaviour {
 
 	void SpawnNotes(int num){
 		Instantiate (notes[num], 
-			new Vector3 (-4.0f + (2.0f * num), 10.0f, 0),
-			Quaternion.identity);
+			//new Vector3 (-4.0f + (2.0f * num), 10.0f, 0),
+			//Quaternion.identity);
+			new Vector3 (0,10.0f,0),Quaternion.identity);
 	}
 
 	void LoadCSV(){
@@ -69,7 +73,7 @@ public class GameManager : MonoBehaviour {
 			string[] values = line.Split (',');
 			_timing [i] = float.Parse( values [0] );
 			_lineNum [i] = int.Parse( values [1] );
-			Debug.Log (_timing[i] + " " + _lineNum[i]);
+			//Debug.Log (_timing[i] + " " + _lineNum[i]);
 			i++;
 		}
 	}
