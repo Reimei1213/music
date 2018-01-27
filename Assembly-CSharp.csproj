@@ -102,6 +102,8 @@
      <Compile Include="Assets\Assets\UnityChanStage\Visualizer\MirrorReflection.cs" />
      <Compile Include="Assets\Assets\UnityChanStage\Visualizer\Visualizer.cs" />
      <Compile Include="Assets\CSVWriter.cs" />
+     <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\CameraController.cs" />
+     <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\IdleChanger.cs" />
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\NotesScript.cs" />
      <Compile Include="Assets\NotesTimingMaker.cs" />
@@ -112,6 +114,7 @@
      <Compile Include="Assets\StageScript\ToStage4.cs" />
      <Compile Include="Assets\StageScript\ToStage5.cs" />
      <Compile Include="Assets\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
+     <Compile Include="Assets\UnitychanAnimator.cs" />
      <None Include="Assets\Assets\UnityChan\CandyRockStar\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\Assets\UnityChan\CandyRockStar\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\Assets\UnityChanStage\Effects\Shaders\Light Beam.shader" />
