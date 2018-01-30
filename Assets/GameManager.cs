@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour {
 	private int _score = 0;
 
 	public Text StartText;
+	public Text StartText2;
 
 	void Start(){
 		_audioSource = GameObject.Find ("GameMusic").GetComponent<AudioSource> ();
@@ -47,6 +48,7 @@ public class GameManager : MonoBehaviour {
 		_audioSource.Play ();
 		_isPlaying = true;
 		Destroy (StartText);
+		Destroy (StartText2);
 	}
 
 	void CheckNextNotes(){

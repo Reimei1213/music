@@ -17,19 +17,19 @@ public class NotesScript : MonoBehaviour {
 		//this.transform.position += Vector3.down * 10 * Time.deltaTime;
 		switch(lineNum){
 		case 0:
-			this.transform.position += new Vector3(-0.6f,1.0f,0) * speed * Time.deltaTime;
+			this.transform.position += new Vector3(-0.45f,1.0f,0) * speed * Time.deltaTime;
 			break;
 		case 1:
-			this.transform.position += new Vector3(-0.2f,1.0f,0) * speed * Time.deltaTime;
+			this.transform.position += new Vector3(-0.23f,1.0f,0) * speed * Time.deltaTime;
 			break;
 		case 2:
 			this.transform.position += new Vector3(0,1.0f,0) * speed * Time.deltaTime;
 			break;
 		case 3:
-			this.transform.position += new Vector3(0.2f,1.0f,0) * speed * Time.deltaTime;
+			this.transform.position += new Vector3(0.23f,1.0f,0) * speed * Time.deltaTime;
 			break;
 		case 4:
-			this.transform.position += new Vector3(0.6f,1.0f,0) * speed * Time.deltaTime;
+			this.transform.position += new Vector3(0.45f,1.0f,0) * speed * Time.deltaTime;
 			break;
 		default:
 			break;
