@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.IO;
-using System;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameManager : MonoBehaviour {
 
@@ -27,6 +28,12 @@ public class GameManager : MonoBehaviour {
 	public Text StartText;
 	public Text StartText2;
 
+
+	private int MusicFlag = 0;
+	private int WinFlag = 0;
+
+	private float Color;
+
 	void Start(){
 		_audioSource = GameObject.Find ("GameMusic").GetComponent<AudioSource> ();
 		_timing = new float[1024];
@@ -39,6 +46,16 @@ public class GameManager : MonoBehaviour {
 			CheckNextNotes ();
 			scoreText.text = _score.ToString ();
 		}
+		if (!_audioSource.isPlaying && MusicFlag == 1) {
+			MusicFlag = 0;
+			if (WinFlag == 1) {
+				WinFlag = 0;
+				SceneManager.LoadScene ("Win");
+			} else {
+				SceneManager.LoadScene ("Lose");
+			}
+			//WinFlagの設定をする
+		}
 
 	}
 
@@ -46,6 +63,7 @@ public class GameManager : MonoBehaviour {
 		startButton.SetActive (false);
 		_startTime = Time.time;
 		_audioSource.Play ();
+		MusicFlag = 1;
 		_isPlaying = true;
 		Destroy (StartText);
 		Destroy (StartText2);
@@ -59,14 +77,23 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void SpawnNotes(int num){
-		Instantiate (notes[num], 
+		var _obj = (GameObject)Instantiate (notes[num], 
 			//new Vector3 (-4.0f + (2.0f * num), 10.0f, 0),
 			//Quaternion.identity);
 			new Vector3 (0,10.0f,0),Quaternion.identity);
+		Color = Random.Range(0.0f, 1.0f);
+		var _renderer = _obj.GetComponent<Renderer> ();
+		if (0f <= Color && Color < 0.4f) {
+			_renderer.material.color = new Color ((float)1f, 0f, 0f, 1f);
+		} else if (0.4f < Color && Color < 0.8f) {
+			_renderer.material.color = new Color ((float)0f, 0f, 1f, 1f);
+		} else if (0.8f <= Color && Color <= 1.0f) {
+			_renderer.material.color = new Color ((float)1f, 1f, 0f, 1f);
+		}
 	}
 
 	void LoadCSV(){
-		int i = 0, j;
+		int i = 0;
 		TextAsset csv = Resources.Load (filePass) as TextAsset;
 		StringReader reader = new StringReader (csv.text);
 		while (reader.Peek () > -1) {
@@ -85,8 +112,8 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void GoodTimingFunc(int num){
-		Debug.Log ("Line:" + num + " good!");
-		Debug.Log (GetMusicTime());
+		//Debug.Log ("Line:" + num + " good!");
+		//Debug.Log (GetMusicTime());
 		_score++;
 	}
 }

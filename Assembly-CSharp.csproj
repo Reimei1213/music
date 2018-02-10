@@ -113,6 +113,10 @@
      <Compile Include="Assets\StageScript\ToStage3.cs" />
      <Compile Include="Assets\StageScript\ToStage4.cs" />
      <Compile Include="Assets\StageScript\ToStage5.cs" />
+     <Compile Include="Assets\StageScript\ToStage6.cs" />
+     <Compile Include="Assets\StageScript\ToStage7.cs" />
+     <Compile Include="Assets\StageScript\ToStage8.cs" />
+     <Compile Include="Assets\StageScript\ToStage9.cs" />
      <Compile Include="Assets\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
      <Compile Include="Assets\UnitychanAnimator.cs" />
      <None Include="Assets\Assets\UnityChan\CandyRockStar\Shader\Unitychan_chara_eye.shader" />
