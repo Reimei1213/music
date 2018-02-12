@@ -105,8 +105,19 @@
      <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\CameraController.cs" />
      <Compile Include="Assets\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\IdleChanger.cs" />
      <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Camera\vThirdPersonCamera.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonAnimator.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonController.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonMotor.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vComment.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vDestroyGameObject.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vExtensions.cs" />
+     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vPickupItem.cs" />
      <Compile Include="Assets\NotesScript.cs" />
      <Compile Include="Assets\NotesTimingMaker.cs" />
+     <Compile Include="Assets\SapphiArt\SapphiArtchan\Scripts\AnimationManagerUI.cs" />
+     <Compile Include="Assets\SapphiArt\SapphiArtchan\Scripts\SapphiArtChan_AnimManager.cs" />
      <Compile Include="Assets\StageScript\ToSelect.cs" />
      <Compile Include="Assets\StageScript\ToStage1.cs" />
      <Compile Include="Assets\StageScript\ToStage2.cs" />
@@ -130,6 +141,7 @@
      <None Include="Assets\Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\Assets\WaitingRoom\Neon Sign.shader" />
+     <None Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\README_Basic.txt" />
      <None Include="Assets\UnityChan\Voice\unity-chan_voice_list.txt" />
      <None Include="Assets\Assets\UnityChan\CandyRockStar\Shader\Unitychan_chara_fuku_ds.shader" />
      <None Include="Assets\Assets\Resources\Camera-DepthTexture.shader" />

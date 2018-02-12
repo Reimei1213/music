@@ -482,8 +482,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1151321437}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 221, y: 138, z: 0}
-  m_LocalScale: {x: 0.5525, y: 0.5525, z: 0.5525}
+  m_LocalPosition: {x: 234.5, y: 146.5, z: 0}
+  m_LocalScale: {x: 0.58625, y: 0.58625, z: 0.58625}
   m_Children:
   - {fileID: 261116886}
   - {fileID: 670240661}
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.007352948, g: 0.83569974, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
