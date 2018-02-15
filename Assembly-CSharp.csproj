@@ -116,6 +116,7 @@
      <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vPickupItem.cs" />
      <Compile Include="Assets\NotesScript.cs" />
      <Compile Include="Assets\NotesTimingMaker.cs" />
+     <Compile Include="Assets\OPScript.cs" />
      <Compile Include="Assets\SapphiArt\SapphiArtchan\Scripts\AnimationManagerUI.cs" />
      <Compile Include="Assets\SapphiArt\SapphiArtchan\Scripts\SapphiArtChan_AnimManager.cs" />
      <Compile Include="Assets\StageScript\ToSelect.cs" />
