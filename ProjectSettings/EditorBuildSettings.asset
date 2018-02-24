@@ -47,3 +47,66 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GameStage Folder/Stage9.unity
     guid: a8499526392ab45479d69675527242b8
+  - enabled: 1
+    path: Assets/GameStage Folder/Stage10.unity
+    guid: e13cca27db6bd7b47bdd69ce89636929
+  - enabled: 1
+    path: Assets/Story Folder/Story1A.unity
+    guid: 8b5cdef53e9c2e348859f1c5b17bd075
+  - enabled: 1
+    path: Assets/Story Folder/Story1B.unity
+    guid: 235be6eb4d56a154bbd55cb6d3b12484
+  - enabled: 1
+    path: Assets/Story Folder/Story2A.unity
+    guid: 09b76f897d1d799478a6999eb93a7208
+  - enabled: 1
+    path: Assets/Story Folder/Story2B.unity
+    guid: 12ea11f84499f5f40b6a2ed01b020fd0
+  - enabled: 1
+    path: Assets/Story Folder/Story3A.unity
+    guid: 0635ac82bd8f03e43bf3dabb16b9f019
+  - enabled: 1
+    path: Assets/Story Folder/Story3B.unity
+    guid: d2ef06557833deb4da80b80585d16abc
+  - enabled: 1
+    path: Assets/Story Folder/Story4A.unity
+    guid: 3651c5cbd02b1f649b6ebb61657cc1c3
+  - enabled: 1
+    path: Assets/Story Folder/Story4B.unity
+    guid: 6b1588af0eed76d45952476fcdbff700
+  - enabled: 1
+    path: Assets/Story Folder/Story5A.unity
+    guid: aa0bd978c0b74e24da91a8568a9e9c08
+  - enabled: 1
+    path: Assets/Story Folder/Story5B.unity
+    guid: 2083dd6d484f1cd47a61aea9639992aa
+  - enabled: 1
+    path: Assets/Story Folder/Story6A.unity
+    guid: 62b70a2ca5e2ffc4ba55e59f67891cfe
+  - enabled: 1
+    path: Assets/Story Folder/Story6B.unity
+    guid: 11a0bb3c680201843bc122bc734a9087
+  - enabled: 1
+    path: Assets/Story Folder/Story7A.unity
+    guid: b812547796d16eb4cbe710409c2fba0b
+  - enabled: 1
+    path: Assets/Story Folder/Story7B.unity
+    guid: c87aaeed0271a4946959dfdb67ec5ac6
+  - enabled: 1
+    path: Assets/Story Folder/Story8A.unity
+    guid: 2b7fc1f82b0e9b642b445bd33484214b
+  - enabled: 1
+    path: Assets/Story Folder/Story8B.unity
+    guid: f007eb6500a5b8f4b86e9753e4cba023
+  - enabled: 1
+    path: Assets/Story Folder/Story9A.unity
+    guid: ce472035a5df6bc4dae09d9b54a1bf55
+  - enabled: 1
+    path: Assets/Story Folder/Story9B.unity
+    guid: cccad128a9e0c1340ad3a7880ea074fa
+  - enabled: 1
+    path: Assets/Story Folder/Story10A.unity
+    guid: 00d934220a38f2b40983bd5f06aeed5d
+  - enabled: 1
+    path: Assets/Story Folder/Story10B.unity
+    guid: 032af8ce7cb90c345901725b654c67fa

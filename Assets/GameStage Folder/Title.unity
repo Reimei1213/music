@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 670240662}
   - component: {fileID: 670240666}
   m_Layer: 5
-  m_Name: Select
+  m_Name: OP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -343,8 +343,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 670240666}
-        m_MethodName: Stage
+      - m_Target: {fileID: 670240660}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 670240660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e6097d121104694a982b89cf117a491, type: 3}
+  m_Script: {fileID: 11500000, guid: 45777db1f7c13834c942ec2756867315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1151321437

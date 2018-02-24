@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ToSelect : MonoBehaviour {
 
+	public int _Story = 1;
+
 	// Use this for initialization
 	void Start () {
 		
