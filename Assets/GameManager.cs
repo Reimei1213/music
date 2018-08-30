@@ -34,6 +34,8 @@ public class GameManager : MonoBehaviour {
 
 	private float Color;
 
+	public int ColorTag = 0;
+
 	void Start(){
 		_audioSource = GameObject.Find ("GameMusic").GetComponent<AudioSource> ();
 		_timing = new float[1024];
@@ -85,10 +87,13 @@ public class GameManager : MonoBehaviour {
 		var _renderer = _obj.GetComponent<Renderer> ();
 		if (0f <= Color && Color < 0.4f) {
 			_renderer.material.color = new Color ((float)1f, 0f, 0f, 1f);
+			ColorTag = 1;
 		} else if (0.4f < Color && Color < 0.8f) {
 			_renderer.material.color = new Color ((float)0f, 0f, 1f, 1f);
+			ColorTag = 2;
 		} else if (0.8f <= Color && Color <= 1.0f) {
 			_renderer.material.color = new Color ((float)1f, 1f, 0f, 1f);
+			ColorTag = 3;
 		}
 	}
 

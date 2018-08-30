@@ -16,7 +16,7 @@ public class Gauge : MonoBehaviour {
 	float _hp = 0;
 	void Update () {
 		// HP上昇
-		_hp += 1f;
+		_hp += 0.1f;
 		if(_hp > 10) {
 			// 最大を超えたら0に戻す
 			_hp = 0;

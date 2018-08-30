@@ -555,7 +555,6 @@ GameObject:
   - component: {fileID: 679897325}
   - component: {fileID: 679897324}
   - component: {fileID: 679897323}
-  - component: {fileID: 679897326}
   - component: {fileID: 679897327}
   m_Layer: 5
   m_Name: Stage7
@@ -622,7 +621,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 679897326}
+      - m_Target: {fileID: 679897327}
         m_MethodName: Stage
         m_Mode: 1
         m_Arguments:
@@ -668,17 +667,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 679897321}
---- !u!114 &679897326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 679897321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b178c5b2ca7941468f92eb6c2298679, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &679897327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,7 +763,6 @@ GameObject:
   - component: {fileID: 778758450}
   - component: {fileID: 778758449}
   - component: {fileID: 778758448}
-  - component: {fileID: 778758451}
   - component: {fileID: 778758452}
   m_Layer: 5
   m_Name: Stage10
@@ -842,7 +829,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 778758451}
+      - m_Target: {fileID: 778758452}
         m_MethodName: Stage
         m_Mode: 1
         m_Arguments:
@@ -888,17 +875,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 778758446}
---- !u!114 &778758451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 778758446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02bf4516e0a1c124f954b9ae23a14618, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &778758452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1009,7 +985,6 @@ GameObject:
   - component: {fileID: 1161831279}
   - component: {fileID: 1161831278}
   - component: {fileID: 1161831277}
-  - component: {fileID: 1161831280}
   - component: {fileID: 1161831281}
   m_Layer: 5
   m_Name: Stage5
@@ -1076,9 +1051,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1161831280}
-        m_MethodName: Stage
-        m_Mode: 1
+      - m_Target: {fileID: 1161831281}
+        m_MethodName: SendMessageUpwards
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1122,17 +1097,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1161831275}
---- !u!114 &1161831280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1161831275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5daf1278b029c54f83f23d231fa0525, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1161831281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1226,8 +1190,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1171298196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 276.5, y: 146.5, z: 0}
-  m_LocalScale: {x: 0.69125, y: 0.69125, z: 0.69125}
+  m_LocalPosition: {x: 234.5, y: 146.5, z: 0}
+  m_LocalScale: {x: 0.58625, y: 0.58625, z: 0.58625}
   m_Children:
   - {fileID: 1583969729}
   - {fileID: 1624936871}
@@ -1399,7 +1363,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1296761626}
         m_MethodName: Stage
         m_Mode: 1
         m_Arguments:
@@ -1598,7 +1562,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1433003581}
         m_MethodName: Stage
         m_Mode: 1
         m_Arguments:
@@ -1666,7 +1630,6 @@ GameObject:
   - component: {fileID: 1460581795}
   - component: {fileID: 1460581794}
   - component: {fileID: 1460581793}
-  - component: {fileID: 1460581796}
   - component: {fileID: 1460581797}
   m_Layer: 5
   m_Name: Stage6
@@ -1733,7 +1696,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1460581796}
+      - m_Target: {fileID: 1460581797}
         m_MethodName: Stage
         m_Mode: 1
         m_Arguments:
@@ -1779,17 +1742,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1460581791}
---- !u!114 &1460581796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1460581791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dc6e43c24dfaec47859d549cc9d42e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1460581797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1952,7 +1904,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1575606569}
         m_MethodName: Stage
         m_Mode: 1
         m_Arguments:
@@ -2154,8 +2106,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1624936870}
-        m_MethodName: 
+      - m_Target: {fileID: 1624936875}
+        m_MethodName: Stage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2211,6 +2163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac274e508ee64fd4c842fb9e17fd2968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ToSelect: {fileID: 0}
 --- !u!1 &1802274163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2222,7 +2175,6 @@ GameObject:
   - component: {fileID: 1802274167}
   - component: {fileID: 1802274166}
   - component: {fileID: 1802274165}
-  - component: {fileID: 1802274168}
   - component: {fileID: 1802274169}
   m_Layer: 5
   m_Name: Stage8
@@ -2289,7 +2241,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1802274168}
+      - m_Target: {fileID: 1802274169}
         m_MethodName: Stage
         m_Mode: 1
         m_Arguments:
@@ -2335,17 +2287,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1802274163}
---- !u!114 &1802274168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802274163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1c8cc7e8bc9b4847a25e76ebc7ad1a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1802274169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2442,7 +2383,6 @@ GameObject:
   - component: {fileID: 1856854673}
   - component: {fileID: 1856854672}
   - component: {fileID: 1856854671}
-  - component: {fileID: 1856854674}
   - component: {fileID: 1856854675}
   m_Layer: 5
   m_Name: Stage9
@@ -2509,7 +2449,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1856854674}
+      - m_Target: {fileID: 1856854675}
         m_MethodName: Stage
         m_Mode: 1
         m_Arguments:
@@ -2555,17 +2495,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1856854669}
---- !u!114 &1856854674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1856854669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eec78121daf1ae4187c40f4d35ae896, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1856854675
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1997,6 +1997,7 @@ MonoBehaviour:
   scoreText: {fileID: 1025334800}
   StartText: {fileID: 503614766}
   StartText2: {fileID: 978979894}
+  ColorTag: 0
 --- !u!4 &1048797078
 Transform:
   m_ObjectHideFlags: 0

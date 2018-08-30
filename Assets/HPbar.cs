@@ -12,13 +12,13 @@ public class HPbar: MonoBehaviour {
 		E_slider = GameObject.Find("E_HPbar").GetComponent<Slider>();
 	}
 
-	float _hp = 0;
+	float _hp = 100;
 	void Update () {
 		// HP上昇
-		_hp += 1f;
-		if(_hp > 100) {
+		_hp -= 1f;
+		if(_hp <0) {
 			// 最大を超えたら0に戻す
-			_hp = 0;
+			_hp = 100;
 		}
 
 		// HPゲージに値を設定
